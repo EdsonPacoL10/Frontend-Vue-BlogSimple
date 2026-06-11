@@ -49,11 +49,20 @@
     filter: invert(1) brightness(2);
   }
 }
-
+html{
+    scroll-behavior:smooth;
+}
 body {
   margin: 0;
 }
+section{
+    padding-top:100px;
+    min-height:100vh;
+}
 
+.hero{
+    padding-top:120px;
+}
 h1,
 h2 {
   font-family: var(--heading);
